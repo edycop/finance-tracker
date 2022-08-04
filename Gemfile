@@ -41,6 +41,8 @@ gem 'bootsnap', require: false
 
 gem 'bootstrap', '~> 5.2'
 
+gem 'devise', '~> 4.8'
+
 # Use Sass to process CSS
 # gem 'sassc-rails'
 
@@ -66,6 +68,10 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem 'spring'
+
+  # Make Your Rails Console Pretty
+  gem 'pretty_rails_console'
+  gem 'hirb'
 end
 
 group :production do
