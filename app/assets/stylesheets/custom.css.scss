@@ -6,7 +6,7 @@ html, body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: rgb(156, 150, 150);
+  background-color: rgb(155, 133, 133);
 }
 
 .navbar {
@@ -40,4 +40,25 @@ html, body {
 
 #sticky-footer {
   flex-shrink: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.results-block {
+  display: inline-block;
 }

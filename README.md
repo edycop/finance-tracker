@@ -11,5 +11,6 @@ You can see an oline demo of this app on finance-tracker-1001.herokuapp.com.
 - devise: 4.8
 - devise-bootstrap5: 0.1.3
 - pretty_rails_console: 0.1.1
+- font-awesome-rails: 4.7
 
 ## Deployment instructions
