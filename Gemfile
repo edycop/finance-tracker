@@ -45,6 +45,8 @@ gem 'devise', '~> 4.8'
 gem 'devise-bootstrap5'
 gem 'devise-i18n'
 
+gem 'iex-ruby-client'
+
 # Use Sass to process CSS
 # gem 'sassc-rails'
 
