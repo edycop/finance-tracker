@@ -6,6 +6,7 @@ class StocksController < ApplicationController
         # render json: @stock
         # render my_portfolio_path # Render the view not call the endpoint
         render 'users/my_portfolio'
+        # render @stock
       else
         flash[:alert] = 'Please enter a valid symbol to search'
         redirect_to my_portfolio_path
