@@ -7,4 +7,4 @@ import 'bootstrap'
 Turbo.session.drive = true
 
 // This sets the progress bar delay to 1ms
-Turbo.setProgressBarDelay(1000)
+// Turbo.setProgressBarDelay(1000)
