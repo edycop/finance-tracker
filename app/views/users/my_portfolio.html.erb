@@ -17,5 +17,11 @@
     <% end %>
   </div>
 
-  <%= render 'users/result' %>
+  <div id="results">
+    <%= render 'users/result' %>
+  </div>
+
+  <% if @tracked_stocks.present? %>
+    <%= render 'stocks/list' %>
+  <% end %>
 <% end %>
