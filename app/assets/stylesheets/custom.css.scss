@@ -36,7 +36,34 @@ html, body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
   height: 425px;
+  opacity: 0.75;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.575);
+  // background-color: rgba(152, 66, 211, 0.63);
+}
+
+.finance-title {
+  position: relative;
+  color: #ffffff;
+  font-size: 4rem;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.finance-body {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
 }
 
 #sticky-footer {

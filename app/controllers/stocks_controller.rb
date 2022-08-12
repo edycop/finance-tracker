@@ -13,7 +13,7 @@ class StocksController < ApplicationController
     else
       flash.now[:alert] = 'Please enter a symbol to search'
       @tracked_stocks = current_user.stocks
-        render 'users/my_portfolio', locals: { stock: @stock, tracked_stocks: @tracked_stocks }
+      render 'users/my_portfolio', locals: { stock: @stock, tracked_stocks: @tracked_stocks }
     end
   end
 end

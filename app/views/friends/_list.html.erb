@@ -10,12 +10,12 @@
         </tr>
       </thead>
       <tbody class="table-group-divider">
-        <% @friends.each do |friend| %>
+        <% @followed_friends.each do |friend| %>
           <tr>
             <th scope="row"><%= friend.email %></th>
             <td><%= friend.first_name %></td>
             <td><%= friend.last_name %></td>
-            <td><%= link_to 'Stop following', '#', class: "btn btn-sm btn-warning", data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Stop following', friendship_path(friend), class: "btn btn-sm btn-warning", data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } %></td>
           </tr>
         <% end %>
       </tbody>
